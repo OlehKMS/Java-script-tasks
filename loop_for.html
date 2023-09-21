@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+
+<body>
+   <script>
+      /*Обчислити суму перших 10 натуральних чисел.
+   Вивести на екран всі парні числа від 1 до 20.
+   Обчислити факторіал числа 5.
+   Знайти суму всіх елементів масиву з 10 чисел.
+   Вивести на екран таблицю множення для числа 7.
+   Вивести на екран всі прості числа від 1 до 50.
+   Обчислити середнє арифметичне значення елементів масиву з 20 чисел.
+   Вивести на екран суму всіх чисел, що діляться на 3, від 1 до 100.
+   Знайти найбільший елемент в масиві з 15 чисел.
+   Вивести на екран всі букви в слові "JavaScript" у зворотньому порядку.
+   Задача. Поступово генерувати 100 випадкових чисел від 1 до 1000. Підрахувати яких чисел більше: парних чи непарних.*/
+
+      // Обчислити суму перших 10 натуральних чисел.
+      // let arr = [1,2,3,3,55,32,235,23,77,5,34,43,4,3]
+      // let _lenght = arr.length
+      // console.log(_lenght);
+      // const counter =10
+      // let sum = 0
+      // for (let i = 0; i < counter; i++) {
+      //     sum += arr[i];
+      //     document.write(`${i} - ${sum}<br>`)
+
+      // }
+      // Вивести на екран всі парні числа від 1 до 20.
+      // let arr = [1,2,3,3,55,32,235,23,77,5,34,43,4,3]
+
+      // for (let i = 0; i < arr.length; i++) {
+      //    if (arr[i]%2 === 0) {
+      //       document.write(`${arr[i]}`)
+      //    }
+
+      // }
+      // Обчислити факторіал числа 5
+      // let arr = [1,2,3,4,5,6,7,8,9,0]
+      // const factorial = 5
+      // let el = arr[0]
+      // for (let i = 0; i < factorial; i++) {
+      //     el *= arr[i];
+
+      // }
+      // document.write(`${el}`)
+
+      // Знайти суму всіх елементів масиву з 10 чисел.
+      // const numCounter =10
+      // let arr = [1,2,3,3,55,32,235,23,77,5,34,43,4,3]
+      // let el = 0
+      // for (let i = 0; i < numCounter; i++) {
+      //     el += arr[i];
+      //    document.write(`${el}<br>`)
+      // }
+      // Вивести на екран таблицю множення для числа 7.
+      // const multNum7 = 7
+      // let el = Number
+      // for (let i = 0; i <= 10; i++) {
+      //    document.write(`${multNum7 * i}<br>`)
+
+      // }
+      // Вивести на екран всі прості числа від 1 до 50
+      // function isPrime(num) {
+      //    for (let i = 2; i < num; i++) {
+      //       if (num % i === 0) return false;
+      //    }
+      //    return num !== 1;
+      // }
+
+      // function printPrimes(max) {
+      //    for (let i = 2; i <= max; i++) {
+      //       if (isPrime(i)) console.log(i);
+      //    }
+      // }
+
+      // printPrimes(50);
+      // Обчислити середнє арифметичне значення елементів масиву з 20 чисел.
+      // let arr = [1, 2, 3, 3, 55, 32, 235, 23, 77, 5, 34, 43, 4, 3]
+      // let sum = 0
+      // for (let i = 0; i < arr.length; i++) {
+      //    sum += arr[i]
+
+      // }
+      // document.write(`${sum / arr.length}`)
+
+      // Вивести на екран суму всіх чисел, що діляться на 3, від 1 до 100
+      // let arr =[]
+      // for (let i = 1; i <= 100; i++) {
+      //    const element = arr.push(i);
+
+      // }
+      // for (let i = 0; i < arr.length; i++) {
+      //    if (arr[i] % 3 === 0) {
+      //       document.write(`${arr[i]}<br>`)
+      //    }
+
+      // }
+      // console.log(arr);
+
+      // Знайти найбільший елемент в масиві з 15 чисел
+
+      // let arr = [1, 2, 3, 3, 55, 32, 235, 23, 77, 5, 34, 43, 4, 3]
+      // let bigNum = 0
+
+      // for (let i = 0; i < arr.length; i++) {
+      //    if (bigNum<arr[i]) {
+      //       bigNum=arr[i]
+      //    }
+
+      // }
+      // document.write(`${bigNum}`)
+
+      //  Вивести на екран всі букви в слові "JavaScript" у зворотньому порядку
+      // const word = 'JavaScript'
+      // let _lenght =word.length-1
+      // console.log(word.length);
+      // for (let i = 0; i < word.length; i++) {
+      //    document.write(`${word[_lenght]}`)
+      //    _lenght--
+
+      // }
+
+      // Задача. Поступово генерувати 100 випадкових чисел від 1 до 1000. Підрахувати яких чисел більше: парних чи непарних.
+      
+      // let odd = 0 /*нечетные*/
+      // let even = 0/*четные*/
+      // for (let i = 0; i < 100; i++) {
+      //    const randomNum = Math.floor(Math.random() * ((1000 - 1) + 1))
+      //    if (randomNum % 2 === 0) {
+      //       even += randomNum
+      //    }
+      //    else {
+      //       odd += randomNum
+
+      //    }
+      // }
+      // if (even > odd) {
+      //    document.write(`<h1>${even} четные</h1>`)
+      // } else
+      //    document.write(`<h1>${odd} нечетные</h1>`)
+      // console.log(even);
+      // console.log(odd);
+
+   </script>
+</body>
+
+</html>

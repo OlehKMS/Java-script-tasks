@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+   <script>
+      /*Задачи на циклы в JavaScript:
+
+1. Вывести на экран числа от 1 до 10 с помощью цикла for.
+2. Посчитать сумму всех чисел от 1 до 100 с помощью цикла while.
+3. Вывести на экран квадраты чисел от 1 до 10 с помощью цикла for.
+4. Проверить, является ли заданное число простым (имеет только два делителя) с помощью цикла for.
+5. Посчитать факториал заданного числа с помощью цикла while.
+6. Вывести на экран таблицу умножения от 1 до 10 с помощью цикла for вложенного в цикл for.
+7. Проверить, является ли заданная строка палиндромом (читается одинаково справа налево и слева направо) с помощью цикла while.
+8. Найти наименьшее и наибольшее число в массиве с помощью цикла for.
+9. Перебрать все элементы объекта и вывести их на экран с помощью цикла for...in.
+
+Эти задачи позволят вам попрактиковаться в использовании различных видов циклов и решить разнообразные задачи с их помощью.*/
+// 1. Вывести на экран числа от 1 до 10 с помощью цикла for.
+// for (let i = 1;i <= 10; i++) {
+//    document.write(`${i}<br>`)
+// }
+//  2. Посчитать сумму всех чисел от 1 до 100 с помощью цикла while.
+// let counter = 0
+// let i = 1
+// while (i < 100) {
+//    counter+=i
+//    i++
+//    console.log(counter);
+// }
+// 3. Вывести на экран квадраты чисел от 1 до 10 с помощью цикла for.
+// for (let i = 1; i <= 10; i++) {
+//    let pow = Math.pow(i,2)
+//    document.write(`${pow}<br>`)
+// }
+// 4. Проверить, является ли заданное число простым (имеет только два делителя) с помощью цикла for.
+// let n = parseInt(prompt('enter a number'))
+// if(n>1){
+// nextVar:
+//    for (var i = 2; i <= n; i++) {
+//    for (var j = 2; j < i; j++) {
+//       if (i % j == 0){
+//         continue nextVar;
+//       } 
+//     }
+//     console.log(i); 
+//   }
+// }
+// 5. Посчитать факториал заданного числа с помощью цикла while.
+// let userFactorial = parseInt(prompt('enter a number'))
+// let element =1 
+// for (let i = 1; i < userFactorial; i++) {
+//     element += element * i;
+//    console.log(element);
+// }
+// 6. Вывести на экран таблицу умножения от 1 до 10 с помощью цикла for вложенного в цикл for.
+// for (let i = 1; i <= 10; i++) {
+   
+//    for (let s = 1; s <= 10 ; s++) {
+//       document.write(`${i}*${s}=${i*s}<br>`)
+      
+//    }
+//    document.write(`<br>`)
+// }
+// ?????????7 7. Проверить, является ли заданная строка палиндромом (читается одинаково справа налево и слева направо) с помощью цикла while.
+// function isPalindrome(str) {
+//   // Удаляем все пробелы из строки и приводим её к нижнему регистру
+//   const cleanedStr = str.replace(/\s/g, '').toLowerCase();
+
+//   let left = 0;
+//   let right = cleanedStr.length - 1;
+
+//   while (left < right) {
+//     if (cleanedStr[left] !== cleanedStr[right]) {
+//       return false;
+//     }
+//     left++;
+//     right--;
+//   }
+
+//   return true;
+// }
+
+// // Пример использования функции
+// const inputStr = "A man a plan a canal Panama";
+// if (isPalindrome(inputStr)) {
+//   console.log("Данная строка является палиндромом.");
+// } else {
+//   console.log("Данная строка не является палиндромом.");
+// }
+// 8. Найти наименьшее и наибольшее число в массиве с помощью цикла for.
+// let array = [1,2,3,4,5,6,7,8,9]
+// let greates = 0
+// let least = 6
+// for (let i = 0; i < array.length; i++) {
+//    if (greates < array[i]) 
+//    greates=array[i]   
+//    if (least > array[i])
+//    least = array[i]
+   
+// }
+// console.log(greates);
+// console.log(least);
+
+// 9. Перебрать все элементы объекта и вывести их на экран с помощью цикла for...in.
+// let obj = {a:1, b:2, c:3};
+// for (const prop in obj) {
+//    console.log(prop);
+//    /* console.log("obj." + prop + " = " + obj[prop]);*/
+// }
+   </script>
+</body>
+</html>
