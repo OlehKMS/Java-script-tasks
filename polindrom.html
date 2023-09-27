@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+
+<body>
+   <script>
+
+      const word = "level";
+      const isPalindrome = checkPalindrome(word);
+      function checkPalindrome(value) {
+         return value === value.split("").reverse().join("");
+      }
+      console.log(`${word} является палиндромом? ${isPalindrome}`); // Выводит "level является палиндромом? true"
+
+   </script>
+</body>
+
+</html>

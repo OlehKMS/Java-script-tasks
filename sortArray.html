@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+
+<body>
+   <script>
+      const strings = ["apple", "banana", "kiwi", "orange"];
+      function sortStringsByLength(str) {
+         return str.sort((a, b) => a.length - b.length);
+      }
+      const sortedStrings = sortStringsByLength(strings);
+      console.log(`Массив после сортировки: ${sortedStrings}`);
+// Выводит, например, "Массив после сортировки: kiwi, apple, banana, orange"
+
+   </script>
+</body>
+
+</html>
